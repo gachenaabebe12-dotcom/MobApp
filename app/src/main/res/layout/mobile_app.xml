@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+   <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:paddingHorizontal="50sp"
+        android:text="Name Greeting App"
+        android:textColor="#1E5917"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        tools:visibility="visible" />
+    <EditText
+        android:id="@+id/entrname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6sp"
+        android:text="Enter your name"
+        android:inputType="text"
+        />
+    <!--
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your name:"
+        android:textSize="18sp"
+        android:paddingTop="12dp" />
+
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your full name"
+        android:inputType="textPersonName"
+        android:padding="12dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your email:"
+        android:textSize="18sp"
+        android:paddingTop="12dp" />
+
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="example@gmail.com"
+        android:inputType="textEmailAddress"
+        android:padding="12dp" />  -->
+
+</LinearLayout>
