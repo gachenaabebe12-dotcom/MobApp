@@ -10,66 +10,22 @@
     tools:context=".MainActivity">
 
    <TextView
-        android:id="@+id/textview"
+        android:id="@+id/txtview"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:paddingHorizontal="50sp"
-        android:text="Name Greeting App"
-        android:textColor="#1E5917"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        tools:visibility="visible" />
+         />
     <EditText
-        android:id="@+id/entrname"
+        android:id="@+id/fname_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="enter name here"/>
+    <Button android:id="@+id/bsave"
+        android:text="submit"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6sp"
-        android:text="Enter your name"
-        android:inputType="text"
         />
-    <!--
-    <TextView
-        android:id="@+id/titleText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Student Registration"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:padding="16dp" />
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter your name:"
-        android:textSize="18sp"
-        android:paddingTop="12dp" />
-
-
-    <EditText
-        android:id="@+id/nameInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Your full name"
-        android:inputType="textPersonName"
-        android:padding="12dp" />
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enter your email:"
-        android:textSize="18sp"
-        android:paddingTop="12dp" />
-
-
-    <EditText
-        android:id="@+id/emailInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="example@gmail.com"
-        android:inputType="textEmailAddress"
-        android:padding="12dp" />  -->
 
 </LinearLayout>

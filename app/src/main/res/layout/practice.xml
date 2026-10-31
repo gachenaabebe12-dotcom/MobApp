@@ -10,7 +10,47 @@
 
 
     <TextView
-        androiod:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your name:"
+        android:textSize="18sp"
+        android:paddingTop="12dp" />
+
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your full name"
+        android:inputType="textPersonName"
+        android:padding="12dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your email:"
+        android:textSize="18sp"
+        android:paddingTop="12dp" />
+
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="example@gmail.com"
+        android:inputType="textEmailAddress"
+        android:padding="12dp" />
 
 </LinearLayout>
